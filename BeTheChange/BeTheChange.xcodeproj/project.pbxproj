@@ -12,6 +12,17 @@
 		100D7DA91E9887CD002C26DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 100D7DA71E9887CD002C26DA /* Main.storyboard */; };
 		100D7DAB1E9887CD002C26DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 100D7DAA1E9887CD002C26DA /* Assets.xcassets */; };
 		100D7DAE1E9887CD002C26DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 100D7DAC1E9887CD002C26DA /* LaunchScreen.storyboard */; };
+		103C574C1EBA64380094977B /* ExecDirectoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103C574B1EBA64380094977B /* ExecDirectoryViewController.swift */; };
+		103C574E1EBA726F0094977B /* podfile in Resources */ = {isa = PBXBuildFile; fileRef = 103C574D1EBA726F0094977B /* podfile */; };
+		1045BE1C1EA1A19E0034BB75 /* CalFilled.png in Resources */ = {isa = PBXBuildFile; fileRef = 1045BE1B1EA1A19E0034BB75 /* CalFilled.png */; };
+		1045BE1E1EA1A1D00034BB75 /* About.png in Resources */ = {isa = PBXBuildFile; fileRef = 1045BE1D1EA1A1D00034BB75 /* About.png */; };
+		1045BE201EA1A2140034BB75 /* Donate.png in Resources */ = {isa = PBXBuildFile; fileRef = 1045BE1F1EA1A2140034BB75 /* Donate.png */; };
+		1057FE181EA1A6CC006DCEBB /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1057FE171EA1A6CC006DCEBB /* CalendarViewController.swift */; };
+		1078CFDC1E9C7D45005C7F42 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1078CFD81E9C7D45005C7F42 /* Bolts.framework */; };
+		1078CFDD1E9C7D45005C7F42 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1078CFD91E9C7D45005C7F42 /* FBSDKCoreKit.framework */; };
+		1078CFDE1E9C7D45005C7F42 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1078CFDA1E9C7D45005C7F42 /* FBSDKLoginKit.framework */; };
+		1078CFDF1E9C7D45005C7F42 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1078CFDB1E9C7D45005C7F42 /* FBSDKShareKit.framework */; };
+		EF855A4B66F1A9B9FED42A43 /* Pods_BeTheChange.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C5E28D0241E2FADB61C638D /* Pods_BeTheChange.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +33,20 @@
 		100D7DAA1E9887CD002C26DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		100D7DAD1E9887CD002C26DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		100D7DAF1E9887CD002C26DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		103C57491EBA607B0094977B /* BeTheChange.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BeTheChange.entitlements; sourceTree = "<group>"; };
+		103C574B1EBA64380094977B /* ExecDirectoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExecDirectoryViewController.swift; sourceTree = "<group>"; };
+		103C574D1EBA726F0094977B /* podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = podfile; sourceTree = SOURCE_ROOT; };
+		1045BE1B1EA1A19E0034BB75 /* CalFilled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalFilled.png; sourceTree = "<group>"; };
+		1045BE1D1EA1A1D00034BB75 /* About.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = About.png; sourceTree = "<group>"; };
+		1045BE1F1EA1A2140034BB75 /* Donate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Donate.png; sourceTree = "<group>"; };
+		1057FE171EA1A6CC006DCEBB /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalendarViewController.swift; path = Calendar/CalendarViewController.swift; sourceTree = "<group>"; };
+		1078CFD81E9C7D45005C7F42 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		1078CFD91E9C7D45005C7F42 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		1078CFDA1E9C7D45005C7F42 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		1078CFDB1E9C7D45005C7F42 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		318EB3D8E47B4E0529BBCB09 /* Pods-BeTheChange.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeTheChange.release.xcconfig"; path = "Pods/Target Support Files/Pods-BeTheChange/Pods-BeTheChange.release.xcconfig"; sourceTree = "<group>"; };
+		9C5E28D0241E2FADB61C638D /* Pods_BeTheChange.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeTheChange.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFA586AE80E991DB729FD3EB /* Pods-BeTheChange.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeTheChange.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BeTheChange/Pods-BeTheChange.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +54,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1078CFDF1E9C7D45005C7F42 /* FBSDKShareKit.framework in Frameworks */,
+				1078CFDC1E9C7D45005C7F42 /* Bolts.framework in Frameworks */,
+				1078CFDD1E9C7D45005C7F42 /* FBSDKCoreKit.framework in Frameworks */,
+				1078CFDE1E9C7D45005C7F42 /* FBSDKLoginKit.framework in Frameworks */,
+				EF855A4B66F1A9B9FED42A43 /* Pods_BeTheChange.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +68,11 @@
 		100D7D971E9887CD002C26DA = {
 			isa = PBXGroup;
 			children = (
+				103C574D1EBA726F0094977B /* podfile */,
 				100D7DA21E9887CD002C26DA /* BeTheChange */,
 				100D7DA11E9887CD002C26DA /* Products */,
+				C9BFDABF42C4031777297D07 /* Pods */,
+				E7AE2A633470897C0949E60C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +87,81 @@
 		100D7DA21E9887CD002C26DA /* BeTheChange */ = {
 			isa = PBXGroup;
 			children = (
-				100D7DA31E9887CD002C26DA /* AppDelegate.swift */,
+				103C574A1EBA64260094977B /* ExecDirectory */,
+				103C57491EBA607B0094977B /* BeTheChange.entitlements */,
+				1057FE121EA1A5A8006DCEBB /* Calendar */,
 				100D7DA51E9887CD002C26DA /* ViewController.swift */,
 				100D7DA71E9887CD002C26DA /* Main.storyboard */,
+				10C0D6E31EA1A53600954439 /* Other */,
+				1078CFE01E9C7D51005C7F42 /* FW's */,
+			);
+			path = BeTheChange;
+			sourceTree = "<group>";
+		};
+		103C574A1EBA64260094977B /* ExecDirectory */ = {
+			isa = PBXGroup;
+			children = (
+				103C574B1EBA64380094977B /* ExecDirectoryViewController.swift */,
+			);
+			name = ExecDirectory;
+			sourceTree = "<group>";
+		};
+		1057FE121EA1A5A8006DCEBB /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				1057FE171EA1A6CC006DCEBB /* CalendarViewController.swift */,
+			);
+			name = Calendar;
+			sourceTree = "<group>";
+		};
+		1078CFE01E9C7D51005C7F42 /* FW's */ = {
+			isa = PBXGroup;
+			children = (
+				1078CFD81E9C7D45005C7F42 /* Bolts.framework */,
+				1078CFD91E9C7D45005C7F42 /* FBSDKCoreKit.framework */,
+				1078CFDA1E9C7D45005C7F42 /* FBSDKLoginKit.framework */,
+				1078CFDB1E9C7D45005C7F42 /* FBSDKShareKit.framework */,
+			);
+			name = "FW's";
+			sourceTree = "<group>";
+		};
+		10C0D6E31EA1A53600954439 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				10C0D6E41EA1A53E00954439 /* IMG */,
+				100D7DA31E9887CD002C26DA /* AppDelegate.swift */,
 				100D7DAA1E9887CD002C26DA /* Assets.xcassets */,
 				100D7DAC1E9887CD002C26DA /* LaunchScreen.storyboard */,
 				100D7DAF1E9887CD002C26DA /* Info.plist */,
 			);
-			path = BeTheChange;
+			name = Other;
+			sourceTree = "<group>";
+		};
+		10C0D6E41EA1A53E00954439 /* IMG */ = {
+			isa = PBXGroup;
+			children = (
+				1045BE1F1EA1A2140034BB75 /* Donate.png */,
+				1045BE1D1EA1A1D00034BB75 /* About.png */,
+				1045BE1B1EA1A19E0034BB75 /* CalFilled.png */,
+			);
+			name = IMG;
+			sourceTree = "<group>";
+		};
+		C9BFDABF42C4031777297D07 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AFA586AE80E991DB729FD3EB /* Pods-BeTheChange.debug.xcconfig */,
+				318EB3D8E47B4E0529BBCB09 /* Pods-BeTheChange.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E7AE2A633470897C0949E60C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C5E28D0241E2FADB61C638D /* Pods_BeTheChange.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +171,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 100D7DB21E9887CD002C26DA /* Build configuration list for PBXNativeTarget "BeTheChange" */;
 			buildPhases = (
+				EC282F3540FDC6309C48613C /* 📦 Check Pods Manifest.lock */,
 				100D7D9C1E9887CD002C26DA /* Sources */,
 				100D7D9D1E9887CD002C26DA /* Frameworks */,
 				100D7D9E1E9887CD002C26DA /* Resources */,
+				952BCE3A33C31D7C19D9FAED /* 📦 Embed Pods Frameworks */,
+				1BA5B4058D96E1B526DE644E /* 📦 Copy Pods Resources */,
+				10BA43E41EBA732B00B8C7CD /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -97,7 +201,13 @@
 					100D7D9F1E9887CD002C26DA = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = CPDEXJDESH;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -124,21 +234,88 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1045BE201EA1A2140034BB75 /* Donate.png in Resources */,
+				1045BE1C1EA1A19E0034BB75 /* CalFilled.png in Resources */,
 				100D7DAE1E9887CD002C26DA /* LaunchScreen.storyboard in Resources */,
+				103C574E1EBA726F0094977B /* podfile in Resources */,
 				100D7DAB1E9887CD002C26DA /* Assets.xcassets in Resources */,
 				100D7DA91E9887CD002C26DA /* Main.storyboard in Resources */,
+				1045BE1E1EA1A1D00034BB75 /* About.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10BA43E41EBA732B00B8C7CD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 67ccae945cc4824348b63d23cae1159d85cda149 c60db1cf2e1eeefb75fff05dea453342b157d020bb931de0404539b7731dda58";
+		};
+		1BA5B4058D96E1B526DE644E /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeTheChange/Pods-BeTheChange-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		952BCE3A33C31D7C19D9FAED /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeTheChange/Pods-BeTheChange-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC282F3540FDC6309C48613C /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		100D7D9C1E9887CD002C26DA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1057FE181EA1A6CC006DCEBB /* CalendarViewController.swift in Sources */,
 				100D7DA61E9887CD002C26DA /* ViewController.swift in Sources */,
 				100D7DA41E9887CD002C26DA /* AppDelegate.swift in Sources */,
+				103C574C1EBA64380094977B /* ExecDirectoryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +436,15 @@
 		};
 		100D7DB31E9887CD002C26DA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFA586AE80E991DB729FD3EB /* Pods-BeTheChange.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BeTheChange/BeTheChange.entitlements;
 				DEVELOPMENT_TEAM = CPDEXJDESH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BeTheChange",
+				);
 				INFOPLIST_FILE = BeTheChange/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -273,9 +456,15 @@
 		};
 		100D7DB41E9887CD002C26DA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 318EB3D8E47B4E0529BBCB09 /* Pods-BeTheChange.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BeTheChange/BeTheChange.entitlements;
 				DEVELOPMENT_TEAM = CPDEXJDESH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BeTheChange",
+				);
 				INFOPLIST_FILE = BeTheChange/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -304,6 +493,7 @@
 				100D7DB41E9887CD002C26DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
